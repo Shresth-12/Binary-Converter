@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal To Binary Converter</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .head{
+            background-color: aqua;
+            height: 60px;
+            text-align: center;
+        }
+        .headt{
+            position: relative;
+            top: 15px;
+        }
+        .centre{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            top: 100px;
+            left: 45%;
+        }
+        .centre{
+          font-size: 25px;
+          
+        }
+        .inputt{
+           position: relative;
+           left: 45px;
+        }
+        .output{
+        position: relative;
+        top: 30px;    
+        }
+        .button{
+          position: relative;
+          left: 50px;
+        }
+    </style>
+</head>
+<body>
+ <div class="head">
+    <h1 class="headt">Decimal To Binary Converter</h1>
+ </div> 
+ <div class="centre">
+    <div class="input">
+  <form action="" id="myform">
+    <label for="decimalinput">Enter Decimal Number:</label>
+    <input type="text" class="inputt" id="decimal">
+    <input type="button" value="Convert" class="button" onclick="convert()">
+  </form>
+ 
+</div>
+ </div>  
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="./js.js"></script>
+</body>
+</html>
